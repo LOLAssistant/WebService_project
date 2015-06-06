@@ -18,7 +18,7 @@ namespace WebApplication1
     {
         private BusinessLayer.UserBLL objUserBLL = new BusinessLayer.UserBLL();
 
-        //[System.Web.Services.Protocols.SoapHeader("IDHeader")]
+        [System.Web.Services.Protocols.SoapHeader("IDHeader")]
 
         [WebMethod]
         public bool matching(string username, string password)
